@@ -1,0 +1,173 @@
+/* GOOGLE FONTS */
+@import url(https://fonts.googleapis.com/css?family=Poiret+One);
+@import url(https://fonts.googleapis.com/css?family=Vollkorn);
+@import @import url(https://fonts.googleapis.com/css?family=Libre+Baskerville);
+@import url(https://fonts.googleapis.com/css?family=Cinzel:400,700);
+@import url(https://fonts.googleapis.com/css?family=Quattrocento+Sans);
+@import url(https://fonts.googleapis.com/css?family=Limelight);
+
+#body {
+  overflow: hidden;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+button a:link {
+  text-decoration: none;
+}
+
+/* Navagation Bar */
+
+.navbar {
+  height: 1px;
+}
+
+#name {
+  font-family: Palatino Linotype;
+  font-size: 40px;
+}
+
+#buttons {
+  font-family: Palatino Linotype;
+}
+
+
+/* Home Page */
+
+.home {
+  margin-top: 50px;
+  padding-top: 50px;
+  background-image: url("https://static.pexels.com/photos/10651/photo-1432821596592-e2c18b78144f-large.jpeg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 1278px 1050px;
+  height: 750px;
+}
+
+.header2 {
+  text-align: center;
+  margin-top: 150px;
+  font-family: Poiret One;
+  text-shadow: 3px 3px #056f6d;
+  font-size: 140px;
+}
+
+#subHeader {
+  margin-top: 25px;
+  font-size: 50px;
+  text-shadow: none;
+}
+
+
+/* Bio */
+
+.bio {
+  padding-top: 130px;
+  background-image: url("https://images.unsplash.com/photo-1434735327738-ddce4141037a?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1080&fit=max&s=3ac8395d79b86688d76447db88caf49c");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 800px;
+  color: black;
+}
+
+.left {
+  margin-top: -30px;
+  margin-right: 550px;
+}
+
+#bioName {
+  font-family: Vollkorn;
+  text-align: center;
+  padding-bottom: 40px;
+  font-weight: bold;
+}
+
+#bioImg {
+  width: 260px;
+  height: auto;
+  border-radius: 30%;
+}
+
+.right {
+  margin-left: 700px;
+  margin-top: -40%;
+}
+
+.pBio {
+  padding-top: -900px;
+  font-family: Garamound;
+  font-size: 23px;
+  text-align: left;
+  text-indent: 40px;
+}
+
+#list {
+  font-family: Garamound;
+  font-size: 23px;
+}
+
+/* Work */
+.Work {
+  padding-top: 50px;
+  margin-left: -15px;
+  margin-right: -15px;
+  background-image: url("https://images.unsplash.com/photo-1429032021766-c6a53949594f?crop=entropy&fit=crop&fm=jpg&h=725&ixjsv=2.1.0&ixlib=rb-0.3.5&q=80&w=1300");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 900px;
+  text-align: center;
+}
+
+#title {
+  font-family: Limelight;
+  font-size: 100px;
+  color: black;
+}
+
+#dWork {
+  font-family: Limelight;
+  color: black;
+  font-size: 20px;
+  padding-bottom: 70px;
+}
+
+#img1 a:hover {
+  opacity: 0.8;
+}
+
+/* Contact */
+
+.contact {
+  padding-top: 150px;
+  background-image: url("https://static.pexels.com/photos/33999/pexels-photo-large.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 800px;
+}
+
+.contactR {
+  margin-left: 400px;
+  font-family: Cinzel;
+  font-size: 30px;
+}
+
+#contactMe {
+  text-align: center;
+  font-weight: bold;
+  font-size: 50px;
+  color: grey;
+  padding-bottom: 50px;
+}
+
+.links {
+  font-family: Quattrocentro Sans;
+}
